@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+}
+
+nav h2 {
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section */
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #2563eb;
+}
+
+section p {
+    line-height: 1.7;
+}
+
+/* Galeri */
+.galeri {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.galeri img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Portfolio */
+.portfolio {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio div {
+    background: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.portofolio video{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: auto;
+}
+.portfolio h3 {
+    margin: 800px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
